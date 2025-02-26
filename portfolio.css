@@ -4,8 +4,6 @@ body {
     background-color: black;
     color: white;
 }
-
-/* Navigation Bar */
 nav {
     position: fixed;
     top: 0;
@@ -51,11 +49,8 @@ nav ul li a {
     color: white;
     font-size: 18px;
 }
-
-/* Hero Section */
 .hero {
     height: 100vh;
-    background: url('background.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,22 +71,20 @@ nav ul li a {
 
 .hero-content h2 {
     font-size: 35px;
-    margin: 10px 0; /* Adds space between the headings */
+    margin: 10px 0; 
 }
 
 .hero-image {
-    width: 150px; /* Adjust size as needed */
-    height: 150px; /* Adjust size as needed */
-    border-radius: 50%; /* Makes the image circular */
-    margin-top: 20px; /* Space between text and image */
-    object-fit: cover; /* Ensures the image covers the entire area */
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    margin-top: 20px; 
+    object-fit: cover; 
 }
 
 .highlight {
     color: gold;
 }
-
-/* Content Sections */
 .content-section {
     height: 100vh;
     display: flex;
