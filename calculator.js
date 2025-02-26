@@ -8,7 +8,7 @@ function appendNumber(number) {
 }
 
 function setOperation(operator) {
-  if (currentInput === '') return; // Prevent operation if there's no input
+  if (currentInput === '') return; 
 
   if (previousInput !== '') {
     calculateResult();
@@ -62,9 +62,9 @@ function clearDisplay() {
   document.getElementById('display').value = '';
 }
 
-// Backspace function
+
 function backspace() {
-  currentInput = currentInput.slice(0, -1); // Remove the last character
+  currentInput = currentInput.slice(0, -1); 
   document.getElementById('display').value = currentInput;
 }
 function calculate(){
